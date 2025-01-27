@@ -1,7 +1,7 @@
 # Ignore the virtual environment
 /venv/
 /backend/venv/
-/backend/service.json
+/service.json
 
 # Node.js dependencies (if you have frontend using npm/yarn)
 frontend/node_modules/
