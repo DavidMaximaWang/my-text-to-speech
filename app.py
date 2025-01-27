@@ -2,6 +2,11 @@ from flask import Flask, request, jsonify, send_file
 from google.cloud import texttospeech
 from io import BytesIO
 from flask_cors import CORS  # Import CORS
+import os
+
+# Ensure the environment variable is set
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "service.json"
+
 
 app = Flask(__name__)
 
